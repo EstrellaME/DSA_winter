@@ -78,10 +78,18 @@ class SistemaVentas:
 sistema=SistemaVentas()
 sistema.agregar_vendedor("Juan")
 sistema.agregar_vendedor("Maria")
+sistema.agregar_vendedor("Luis")
+
 sistema.registrar_venta("Juan", 150.0)
 sistema.registrar_venta("Juan", 200.0)
 sistema.registrar_venta("Maria", 300.0)
+sistema.registrar_venta("Maria", 100.0)
+sistema.registrar_venta("Luis", 250.0)
+sistema.registrar_venta("Luis", 400.0)
+
 sistema.mostrar_ventas()
 sistema.total_vendedor("Juan")
-sistema.mejor_vendedor()
+
 sistema.total_vendedor("Maria")
+sistema.total_vendedor("Luis")
+sistema.mejor_vendedor()
